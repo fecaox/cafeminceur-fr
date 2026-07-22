@@ -8,6 +8,7 @@ Contenu publié:
 - cgv/index.html: conditions générales de vente.
 - confidentialite/index.html: politique de confidentialité.
 - livraison-retours/index.html: livraison et retours.
+- contact/index.html: contact client.
 - CNAME: domaine personnalisé GitHub Pages, www.cafeminceur.fr.
 
 Offres Stripe actives:

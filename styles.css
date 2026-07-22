@@ -651,7 +651,8 @@ p {
 .science-highlights,
 .steps-grid,
 .ingredient-grid,
-.trust-grid {
+.trust-grid,
+.contact-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
@@ -707,12 +708,33 @@ p {
 }
 
 .referenced-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: clamp(34px, 5vw, 56px);
 }
 
 .referenced-grid .ingredient-card {
   background: rgba(255, 250, 241, 0.72);
+}
+
+.contact-card {
+  padding: 30px;
+  border: 1px solid rgba(185, 142, 76, 0.32);
+  border-radius: 8px;
+  background: #fbf1df;
+}
+
+.contact-card h2 {
+  font-size: clamp(1.85rem, 3.5vw, 2.7rem);
+}
+
+.contact-card p {
+  margin-top: 14px;
+}
+
+.contact-card a {
+  color: var(--green);
+  font-weight: 900;
+  text-underline-offset: 4px;
 }
 
 .source-link {
@@ -805,6 +827,16 @@ p {
 }
 
 .illustration-frame img {
+  height: 520px;
+  object-fit: contain;
+}
+
+.compatibility-frame {
+  padding: 18px;
+  background: #fbf1df;
+}
+
+.compatibility-frame img {
   height: 520px;
   object-fit: contain;
 }
@@ -1055,14 +1087,18 @@ tr:last-child td {
   .proof-grid,
   .science-highlights,
   .trust-grid,
+  .contact-grid,
   .faq-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .steps-grid,
-  .ingredient-grid,
-  .referenced-grid {
+  .ingredient-grid {
     grid-template-columns: 1fr;
+  }
+
+  .referenced-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1110,6 +1146,8 @@ tr:last-child td {
   .proof-grid,
   .science-highlights,
   .trust-grid,
+  .contact-grid,
+  .referenced-grid,
   .faq-grid {
     grid-template-columns: 1fr;
   }
