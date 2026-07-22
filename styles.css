@@ -780,6 +780,25 @@ p {
   margin-top: 14px;
 }
 
+.preparation-video {
+  max-width: 860px;
+  margin: 42px auto 0;
+}
+
+.preparation-video video {
+  width: 100%;
+  border-radius: 8px;
+  background: var(--ink);
+  box-shadow: var(--shadow);
+}
+
+.preparation-video figcaption {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 0.96rem;
+  text-align: center;
+}
+
 .notice {
   max-width: 980px;
   margin: 34px auto 0;
