@@ -298,12 +298,11 @@ p {
 .product-frame {
   display: grid;
   place-items: center;
-  min-height: 510px;
-  padding: clamp(16px, 2.8vw, 28px);
-  border: 1px solid rgba(185, 142, 76, 0.26);
-  border-radius: 10px;
-  background: rgba(255, 250, 241, 0.78);
-  box-shadow: var(--shadow);
+  min-height: 430px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .product-frame img {
@@ -842,7 +841,7 @@ tr:last-child td {
 
   .product-frame {
     order: -1;
-    padding: 20px;
+    padding: 0;
   }
 
   .trust-strip,
