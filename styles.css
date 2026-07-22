@@ -824,6 +824,7 @@ p {
   border-radius: 8px;
   background: var(--ink);
   object-fit: cover;
+  object-position: center 20%;
   box-shadow: var(--shadow);
 }
 
