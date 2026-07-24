@@ -351,6 +351,10 @@ p {
   display: none;
 }
 
+.mobile-science-proof-section {
+  display: none;
+}
+
 .section {
   padding: clamp(58px, 8vw, 92px) clamp(20px, 6vw, 72px);
 }
@@ -1228,47 +1232,55 @@ tr:last-child td {
     order: 2;
   }
 
-  .preparation-section {
+  .mobile-science-proof-section {
+    display: block;
     order: 3;
+    padding-top: 0;
+    padding-bottom: 38px;
+    background: var(--green-soft);
   }
 
-  .coffee-cherry-section {
+  .preparation-section {
     order: 4;
   }
 
-  .product-ritual-strip {
+  .coffee-cherry-section {
     order: 5;
   }
 
-  .offers-section {
+  .product-ritual-strip {
     order: 6;
   }
 
-  .confidence-section {
+  .offers-section {
     order: 7;
   }
 
-  .capsule-section {
+  .confidence-section {
     order: 8;
   }
 
-  .faq-section {
+  .capsule-section {
     order: 9;
+  }
+
+  .faq-section {
+    order: 10;
   }
 
   .mobile-benefits-section {
     display: block;
-    order: 10;
+    order: 11;
     padding-top: 42px;
     padding-bottom: 46px;
   }
 
   .final-cta-section {
-    order: 11;
+    order: 12;
   }
 
   .site-footer {
-    order: 12;
+    order: 13;
   }
 
   .hero-copy {
@@ -1296,22 +1308,29 @@ tr:last-child td {
     width: 100%;
   }
 
-  .hero-proof {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    margin-top: 28px;
-    padding: 18px 0 16px;
+  .hero-copy .hero-proof {
+    display: none;
   }
 
-  .hero-proof-intro {
+  .mobile-science-proof {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-width: none;
+    margin-top: 0;
+    padding: 20px 0 16px;
+    border-top: 1px solid rgba(185, 142, 76, 0.34);
+    border-bottom: 1px solid rgba(185, 142, 76, 0.34);
+  }
+
+  .mobile-science-proof .hero-proof-intro {
     font-size: 1.08rem;
   }
 
-  .hero-proof strong {
+  .mobile-science-proof strong {
     font-size: 2.65rem;
   }
 
-  .hero-proof span:last-child {
+  .mobile-science-proof span:last-child {
     font-size: 0.95rem;
     line-height: 1.42;
   }
