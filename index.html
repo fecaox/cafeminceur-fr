@@ -3,13 +3,81 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Café Minceur - Le café qui accompagne votre équilibre</title>
+    <title>Café Minceur - Café minceur au goût de vrai café</title>
     <meta
       name="description"
-      content="Un café minceur au goût de vrai café: une tasse par jour pour accompagner votre équilibre, sans changer vos habitudes."
+      content="Café Minceur accompagne votre équilibre avec un rituel léger au goût de vrai café: paquet découverte 1 semaine ou cure 8 semaines."
     />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://www.cafeminceur.fr/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Café Minceur" />
+    <meta property="og:title" content="Café Minceur - Café minceur au goût de vrai café" />
+    <meta
+      property="og:description"
+      content="Un rituel minceur léger, naturel et élégant, pensé pour remplacer simplement votre café habituel."
+    />
+    <meta property="og:url" content="https://www.cafeminceur.fr/" />
+    <meta property="og:image" content="https://www.cafeminceur.fr/assets/images/packaging-cafe-minceur-v3.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Café Minceur - Café minceur au goût de vrai café" />
+    <meta
+      name="twitter:description"
+      content="Un rituel minceur léger, naturel et élégant, pensé pour remplacer simplement votre café habituel."
+    />
+    <meta name="twitter:image" content="https://www.cafeminceur.fr/assets/images/packaging-cafe-minceur-v3.jpg" />
     <link rel="icon" type="image/png" href="assets/images/favicon.png" />
     <link rel="stylesheet" href="styles.css?v=20260722-final" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.cafeminceur.fr/#organization",
+            "name": "Café Minceur",
+            "url": "https://www.cafeminceur.fr/",
+            "email": "contact@cafeminceur.fr"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.cafeminceur.fr/#website",
+            "url": "https://www.cafeminceur.fr/",
+            "name": "Café Minceur",
+            "inLanguage": "fr-FR",
+            "publisher": { "@id": "https://www.cafeminceur.fr/#organization" }
+          },
+          {
+            "@type": "Product",
+            "@id": "https://www.cafeminceur.fr/#product",
+            "name": "Café Minceur",
+            "description": "Café minceur au goût de vrai café, proposé en paquet découverte 1 semaine et cure 8 semaines.",
+            "brand": { "@type": "Brand", "name": "Café Minceur" },
+            "image": "https://www.cafeminceur.fr/assets/images/packaging-cafe-minceur-v3.jpg",
+            "category": "Café",
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Paquet découverte Café Minceur 1 semaine",
+                "url": "https://www.cafeminceur.fr/#offres",
+                "priceCurrency": "EUR",
+                "price": "14.85",
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": "Cure Café Minceur 8 semaines",
+                "url": "https://www.cafeminceur.fr/#offres",
+                "priceCurrency": "EUR",
+                "price": "80.00",
+                "availability": "https://schema.org/InStock"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -36,10 +104,14 @@
         <div class="hero-copy">
           <p class="eyebrow">Café minceur au goût de vrai café</p>
           <h1>Le café qui accompagne votre équilibre.</h1>
+          <p class="lead">
+            Un café minceur naturel pensé pour accompagner votre objectif silhouette, avec le plaisir
+            d’un vrai café et la simplicité d’un rituel déjà familier.
+          </p>
           <div class="hero-difference" aria-label="Pourquoi ce café est différent">
             <article>
               <strong>Le goût que vous connaissez</strong>
-              <span>Pas le goût végétal du café vert: un procédé différent permet de garder un vrai goût de café.</span>
+              <span>Un procédé différent du café vert classique, pour retrouver le plaisir rond d’un vrai café.</span>
             </article>
             <article>
               <strong>La cerise de café mieux valorisée</strong>
@@ -52,13 +124,9 @@
           </div>
           <div class="hero-actions">
             <a class="button" href="#offres">Choisir mon offre</a>
-            <a class="button-secondary" href="science/index.html">Voir les études</a>
           </div>
-          <p class="lead">
-            Un café minceur naturel pensé pour accompagner votre objectif silhouette, avec le plaisir
-            d’un vrai café et la simplicité d’un rituel déjà familier.
-          </p>
           <div class="hero-proof">
+            <span class="hero-proof-intro">Un savoir-faire unique qui révèle toute la richesse du fruit du café.</span>
             <strong>-55%</strong>
             <span>sur le paquet découverte 1 semaine: 70 g de café, cuillère doseuse offerte et 7 sachets pour infuser.</span>
           </div>
@@ -68,14 +136,14 @@
         </figure>
       </section>
 
-      <section class="trust-strip" aria-label="Repères produit">
+      <section class="trust-strip product-ritual-strip" aria-label="Repères produit">
         <article><strong>7</strong><span>cafés par sachet, soit une semaine complète.</span></article>
         <article><strong>1</strong><span>café par jour, idéalement le matin.</span></article>
         <article><strong>70 g</strong><span>par paquet découverte.</span></article>
         <article><strong>8 sem.</strong><span>la cure recommandée pour installer le rituel.</span></article>
       </section>
 
-      <section class="section green-soft" id="etudes">
+      <section class="section green-soft science-section" id="etudes">
         <div class="section-head">
           <div>
             <p class="eyebrow">Repères scientifiques</p>
@@ -122,7 +190,7 @@
         </p>
       </section>
 
-      <section class="section white" id="preparation">
+      <section class="section white preparation-section" id="preparation">
         <div class="section-head">
           <div>
             <p class="eyebrow">Même geste, meilleure régularité</p>
@@ -165,16 +233,16 @@
         </div>
       </section>
 
-      <section class="section rose-soft">
+      <section class="section rose-soft coffee-cherry-section">
         <div class="split">
           <div class="split-copy">
             <p class="eyebrow">100% issu de la cerise de café</p>
-            <h2>Pas de champignon, pas d’arôme étrange, pas de promesse magique.</h2>
+            <h2>Un café pur, élégant, issu de la richesse naturelle de la cerise de café.</h2>
             <p>
               Ce café minceur reste un vrai café. Sa différence vient d’un procédé développé par
               <a class="text-link" href="https://www.cafeintegral.fr/" target="_blank" rel="noopener noreferrer">Café Intégral</a>, une marque française
               positionnée sur une approche haut de gamme du fruit du caféier: mieux valoriser la cerise de café,
-              sans ajouter d’ingrédient étrange ou artificiel.
+              avec une formulation sobre, naturelle et raffinée.
             </p>
             <p>
               Le produit est formulé à partir de la cerise de café: café torréfié, café vert, cascara et café intégral.
@@ -238,7 +306,7 @@
         </div>
       </section>
 
-      <section class="section white" id="offres">
+      <section class="section white offers-section" id="offres">
         <div class="section-head">
           <div>
             <p class="eyebrow">Offre de lancement</p>
@@ -316,7 +384,7 @@
         </div>
       </section>
 
-      <section class="section white compact-section" id="confiance">
+      <section class="section white compact-section confidence-section" id="confiance">
         <div class="section-head">
           <div>
             <p class="eyebrow">Acheter en confiance</p>
@@ -347,7 +415,7 @@
         </div>
       </section>
 
-      <section class="section green-soft">
+      <section class="section green-soft capsule-section">
         <div class="capsule-band">
           <div class="split-copy">
             <p class="eyebrow">Option capsules</p>
@@ -368,7 +436,7 @@
         </div>
       </section>
 
-      <section class="section white" id="faq">
+      <section class="section white faq-section" id="faq">
         <div class="section-head">
           <div>
             <p class="eyebrow">Questions fréquentes</p>
@@ -436,7 +504,27 @@
         </div>
       </section>
 
-      <section class="section dark">
+      <section class="section white mobile-benefits-section" aria-label="Pourquoi choisir Café Minceur">
+        <div class="hero-difference mobile-benefits">
+          <article>
+            <strong>Le goût que vous connaissez</strong>
+            <span>Un procédé différent du café vert classique, pour retrouver le plaisir rond d’un vrai café.</span>
+          </article>
+          <article>
+            <strong>La cerise de café mieux valorisée</strong>
+            <span>Un savoir-faire unique qui révèle toute la richesse du fruit du café.</span>
+          </article>
+          <article>
+            <strong>Une routine légère</strong>
+            <span>Une tasse par jour, un rituel simple, élégant et facile à installer.</span>
+          </article>
+        </div>
+        <div class="hero-actions mobile-benefits-actions">
+          <a class="button" href="#offres">Choisir mon offre</a>
+        </div>
+      </section>
+
+      <section class="section dark final-cta-section">
         <div class="split">
           <div class="split-copy">
             <p class="eyebrow">Commencer simplement</p>
